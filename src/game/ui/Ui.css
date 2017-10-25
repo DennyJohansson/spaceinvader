@@ -1,0 +1,64 @@
+.App--Ui-Screen{
+    width: 800px;
+    height: 600px;
+    margin: 0 auto;
+    padding: 0;
+    background: black;
+    color: white;
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    left: 0;
+}
+.App--Ui-Screen-End{
+    z-index: 20;
+}
+.App--Ui-Hide{
+    display: none;
+}
+.App-Ui-Heading{
+    position: absolute;
+    top: 80px;
+    left: 0;
+    height: 200px;
+    width: 100%;
+    font-size: 48px;
+    background: -webkit-linear-gradient(rgb(255, 0, 0), rgb(115, 255, 0));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.App--Ui-Play{
+    position: absolute;
+    width: 100%;
+    top: 250px;
+    left: 0;
+    font-size: 22px;
+}
+.App--Ui-Controls{
+    position: absolute;
+    width: 100%;
+    top: 380px;
+    left: 0;
+}
+.App-Ui-PlayAgain{
+    position: absolute;
+    width: 100%;
+    top: 400px;
+    left: 0;
+    font-size: 22px;
+}
+.App-Ui-CurrScore{
+    position: absolute;
+    width: 100%;
+    top: 300px;
+    left: 0;
+    font-size: 22px;
+}
+.App-Ui-TopScore{
+    position: absolute;
+    width: 100%;
+    top: 250px;
+    left: 0;
+    font-size: 22px;
+}

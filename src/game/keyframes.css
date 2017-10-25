@@ -1,0 +1,26 @@
+@-webkit-keyframes happyAlien {
+    0%  { background-position: 30% 10px; }
+    50% { background-position: 50% 10px; }
+  }
+  @-moz-keyframes happyAlien {
+    0%  { background-position: 30% 10px; }
+    50% { background-position: 60% 10px; }
+  }
+  @-o-keyframes happyAlien {
+    0%  { background-position: 30% 10px; }
+    50% { background-position: 60% 10px; }
+  }
+  @keyframes happyAlien {
+    49%  { background-position: 30% 10px; }
+    50% { background-position: 0% 10px; }
+  }
+
+  .App--Game--Alien-Animation {
+    -webkit-animation: happyAlien 500ms step-end infinite; /* Safari 4+ */
+    -moz-animation:    happyAlien 500ms step-end infinite; /* Fx 5+ */
+    -o-animation:      happyAlien 500ms step-end infinite; /* Opera 12+ */
+    animation:         happyAlien 500ms step-end infinite; /* IE 10+, Fx 29+ */
+  }
+
+
+

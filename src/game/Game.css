@@ -1,0 +1,62 @@
+@font-face {
+    font-family: pixel;
+    src: url('./fonts/PressStart2P.ttf');
+}
+
+.App--Game{
+    font-family: pixel;
+    text-transform: uppercase;
+    color: white;
+    background: black;
+    margin: 0 auto;
+    margin-top: 50px;
+    position: relative;
+}
+.App--Game-Gui{
+    z-index: 15;
+    position: absolute;
+    top: 0;
+}
+.App--Game-TopScore{
+    right: 50px;
+}
+.App--Game-CurrScore{
+    left: 50px;
+}
+.App--Game--Player{
+    z-index: 4;
+    position: absolute;
+    background: green;
+    background: url('./img/sprite.png') no-repeat;
+}
+.App--Game--Player-Life{
+    background-position: 30% 100%; 
+    background-size: 660%;
+}
+.App--Game--Player-Explode{
+    background-position: 49% 100%; 
+    background-size: 630%;
+}
+.App--Game--Player-Hide{
+    display: none;
+}
+.App--Game--Alien{
+    position: absolute;
+    background: blue;
+    font-size: 12px;
+    background: url('./img/sprite.png') no-repeat;
+    background-position: 30% 10px;
+    background-size: 400%;
+}
+.App--Game--Explode{
+    background: url('./img/sprite.png') no-repeat;
+    background-position: 75% 98%; 
+    background-size: 480%;
+    
+}
+.App--Canvas{
+    z-index: 3;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
